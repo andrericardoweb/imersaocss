@@ -8,18 +8,19 @@
   <link rel="stylesheet" href="css/style.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/16bd46d00e.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
     <nav class="menu">
       <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portfolio">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
 
-    <div>
+    <div class="titulo">
       <h1 class="site-title">Andre Ricardo</h1>
       <h2 class="site-subtitle">jr. Frontend Developer</h2>
       <h2 class="site-subtitle">sr. Coffee Maker
@@ -27,7 +28,7 @@
     </div>
   </header>
 
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <h2>Projetos</h2>
 
     <div class="grid">
@@ -55,9 +56,27 @@
         <img class="img-portfolio" src="images/hobby.png" alt="">
         <figcaption>Handstand</figcaption>
       </figure>
+    </div>     
+  </section>
+
+  <section class="contato" id="contato">
+    <h2>Contato</h2>
+
+    <div class="grid icons">
+      <a href="#" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="#" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="#" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
     </div>
-    
-    
+
   </section>
 </body>
 </html>
