@@ -13,7 +13,7 @@
 <body>
   <header>
     <nav class="menu">
-      <ul>
+      <ul class="container">
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#portfolio">Projetos</a></li>
         <li><a href="#contato">Contato</a></li>
@@ -28,19 +28,53 @@
     </div>
   </header>
 
-  <section class="portfolio" id="portfolio">
+  <section class="sobre container" id="sobre">
+    <h2>Sobre</h2>
+
+    <figure class="avatar">
+      <img src="images/foto_perfil.jpg" alt="Andre Ricardo">
+    </figure>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quisquam dolore! Molestias optio officia consequatur ipsa, saepe delectus cumque ipsum iure. Magni iure dolorem beatae molestiae distinctio suscipit laboriosam inventore!</p>
+    <p>Asperiores non et, pariatur impedit nemo corporis dolorem magni ea quo necessitatibus tempora, debitis iure aspernatur dignissimos aliquam laboriosam, a blanditiis nobis voluptatem ipsam? Culpa minima doloribus aperiam magnam sed.</p>
+    <p>Aspernatur fuga excepturi maxime vero esse illo fugiat eveniet ratione ullam sint animi, nostrum asperiores maiores quibusdam, culpa eos debitis dignissimos aut quae porro laboriosam a aliquid rem est. Dicta.</p>
+    <p>Esta site foi construído durante a <a href="#">Imersão CSS da Alura</a> </p>
+  </section>
+
+  <section class="portfolio container" id="portfolio">
     <h2>Projetos</h2>
 
     <div class="grid">
-      <figure>
-        <img class="img-portfolio" src="images/alura.png" alt="Alura">
-        <figcaption>Alura</figcaption>
-      </figure>
-  
-      <figure>
-        <img class="img-portfolio" src="images/caelum.png" alt="Caelum">
-        <figcaption>Caelum</figcaption>
-      </figure>
+
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="images/alura.png" alt="Alura">
+            <figcaption>Alura</figcaption>
+          </figure>
+          <div class="card-back">
+            Alura
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="images/caelum.png" alt="Caelum">
+            <figcaption>Caelum</figcaption>
+          </figure>
+          <div class="card-back">
+            Caelum
+          </div>
+        </div>
+      </div>
+
+      
+
+      
+
+      
   
       <figure>
         <img class="img-portfolio" src="images/hispters.png" alt="Hipsters.Tech">
@@ -59,7 +93,7 @@
     </div>     
   </section>
 
-  <section class="contato" id="contato">
+  <section class="contato container" id="contato">
     <h2>Contato</h2>
 
     <div class="grid icons">
@@ -78,5 +112,6 @@
     </div>
 
   </section>
+
 </body>
 </html>
